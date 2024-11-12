@@ -1,0 +1,36 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_absolute_error, r2_score
+l = LinearRegression()
+l.fit =(x_train,y_train);
+y_pred_l = l.predict(x_test)
+scaler =standradscaler()
+x_train_scaled = scalar_fit_transfrom(x_train_fit)
+x_test_scaled = scalar_fit_transfrom(x_test_fit)
+svm = svr()
+svm_fit =(x_train_scaled_y_train)
+
+
+a_lr = accuracy_score(y_test,y_pred_l.round)
+a_svm = accuracy_score(y_test,y_pred_svm.round)
+
+p_lr = prevision_score(y_test,y_pred_l.round ,average ='binary' ,zero division =0)
+p_svm = prevision_score(y_test,y_pred_svm.round,average ='binary',zero division = 0)
+
+reacll_lr = recall_score(y_test,y_pred_l.round,average ='binary',zero division = 0)
+recall_svm = reacll_score (y_test,y_pred_svm.round,average ='binary',zero division = 0)
+
+fl_lr = fl_score(y_test,y_pred_l.round,average = 'binary')
+fl_svm = fl_score(y_test,y_pred_svm.round ,average ='binary')
+x_train,y_train,x_test,y_test = train_test_split(x,y ,test_sizetest = size )
+print('number of shapes ',df.shape[i])
+plt.figure(figsize=(8,0))
+sns.heatmap = (df.corr(),annot= True,(map ='cool-ZZZZzzZZ warm'))
+plt.title ("correlation heatmap of features")
+plt.show()
+diabetes_data =load_diabetes()
+x = diabetes_data.data
+y = (diabetes_data.target>130) astyle(int)
+df = pd.dataframe =(x.columns_data())
